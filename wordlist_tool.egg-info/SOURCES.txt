@@ -1,0 +1,8 @@
+pyproject.toml
+wordlist/__init__.py
+wordlist/main.py
+wordlist_tool.egg-info/PKG-INFO
+wordlist_tool.egg-info/SOURCES.txt
+wordlist_tool.egg-info/dependency_links.txt
+wordlist_tool.egg-info/entry_points.txt
+wordlist_tool.egg-info/top_level.txt
