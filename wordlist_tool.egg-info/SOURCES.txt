@@ -1,3 +1,4 @@
+LICENSE
 pyproject.toml
 wordlist/__init__.py
 wordlist/main.py
