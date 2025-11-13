@@ -1,0 +1,16 @@
+[project]
+name = "wordlist-tool"
+version = "1.0.1"
+authors = [
+  { name="Raman" },
+]
+description = "A word list generator tool"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+wordlist-tool = "wordlist.main:run"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
