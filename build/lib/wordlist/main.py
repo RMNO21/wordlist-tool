@@ -35,7 +35,7 @@ def run():
                                                                                                                                                                                                                                                                                                                                                                                                                     
     """
     )
-    
+    #by Raman Tondro
 
 
     def loopnum():
@@ -64,16 +64,12 @@ def run():
         c+=1
     loop=loopnum()
     sep=input("enter the seperator, like '@' , '$' , '&' ... : (press enter to fill blank) ")
+    for i in range(loop):
+        for combo in permutations(range(c), i+1): 
+            for alt in product(*[a[x] for x in combo]):
+                print(sep.join(alt))
 
-    outfile = input("Enter the name of the output file (e.g., output.txt): ")
-    with open(outfile, "w") as f:
-        for i in range(loop):
-            for combo in permutations(range(c), i+1):
-                for alt in product(*[a[x] for x in combo]):
-                    f.write(sep.join(alt) + "\n") 
-
-    print(f"Wordlist saved to {outfile}")
-
+                        
             
 
 
