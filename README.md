@@ -1,4 +1,3 @@
-```markdown
 # 🔡 Wordlist-Tool
 
 A flexible Python CLI tool for generating wordlists from user‑defined inputs.  
