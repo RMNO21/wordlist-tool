@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: wordlist-tool
-Version: 1.0.2
+Version: 1.0.3
 Summary: A word list generator tool
 Author: Raman
 Requires-Python: >=3.8
