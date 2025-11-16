@@ -46,7 +46,6 @@ def loopnum():
         loopnum()
 a=[]
 c=0
-print("enter the possible words ")
 print("enter the possible words (use ',' for OR options)")
 print("print <done> or when blank, press <enter> to complete ")
 
