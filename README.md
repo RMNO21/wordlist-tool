@@ -15,10 +15,19 @@ pip install wordlist-tool
 
 From source:
 
+Linux:
+
 ```bash
 git clone https://github.com/RMNO21/wordlist-tool.git
 cd wordlist-tool
-python -m venv venv
+pip install .
+```
+Windows:
+
+```bash
+git clone https://github.com/RMNO21/wordlist-tool.git
+cd wordlist-tool
+python -m venv venv 
 source venv/bin/activate
 pip install .
 ```
