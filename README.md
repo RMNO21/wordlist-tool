@@ -15,14 +15,14 @@ pip install wordlist-tool
 
 From source:
 
-Linux:
+Windows:
 
 ```bash
 git clone https://github.com/RMNO21/wordlist-tool.git
 cd wordlist-tool
 pip install .
 ```
-Windows:
+Linux:
 
 ```bash
 git clone https://github.com/RMNO21/wordlist-tool.git
