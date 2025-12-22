@@ -4,6 +4,9 @@ A flexible Python CLI tool for generating wordlists from user‑defined inputs.
 It supports **permutations, product combinations, separators, and OR‑options**, making it useful for automation, security research, or custom scripting.
 
 ---
+<img width="1239" height="694" alt="image" src="https://github.com/user-attachments/assets/3a058489-c71c-450b-923b-d720e53a8c15" />
+
+---
 
 ## 📦 Installation
 
